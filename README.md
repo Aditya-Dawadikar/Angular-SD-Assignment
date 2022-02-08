@@ -29,5 +29,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ```
 
 ## Screenshots
+### Posts
+![App Screenshot](https://github.com/Aditya-Dawadikar/Angular-SD-Assignment/blob/master/src/assets/views/v1.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Form
+![App Screenshot](https://github.com/Aditya-Dawadikar/Angular-SD-Assignment/blob/master/src/assets/views/v2.png)
+![App Screenshot](https://github.com/Aditya-Dawadikar/Angular-SD-Assignment/blob/master/src/assets/views/v3.png)
