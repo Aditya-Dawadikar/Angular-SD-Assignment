@@ -1,0 +1,44 @@
+<div class="card m-2 standard-shadow bg-light">
+    <form class="width-five p-5" [formGroup]="employeeInfo">
+        <label>Employee Name*</label>
+        <input class='form-control' placeholder="John Doe" formControlName="employeeName">
+        <div class="row">
+            <div class="col">
+                <label>Email*</label>
+                <input class='form-control' placeholder="johndoe@gmail.com" formControlName="employeeEmail">
+            </div>
+            <div class="col">
+                <label>Phone*</label>
+                <input class='form-control' placeholder="9850xxxxxx" formControlName="employeePhone">
+            </div>
+        </div>
+        <label>Date of Birth*</label>
+        <input class='form-control' type="date" formControlName="employeeDOB">
+        <div formGroupName="employeeAddress">
+            <div class="row">
+                <div class="col">
+                    <label>Address*</label>
+                    <input class='form-control' placeholder="201-A, Uday Glorious park" formControlName="employeeStreet">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-sm-6 col-md-4">
+                    <label>City*</label>
+                    <input class='form-control' placeholder="Pune" formControlName="employeeCity">
+                </div>
+                <div class="col col-sm-6 col-md-4">
+                    <label>State*</label>
+                    <input class='form-control' placeholder="Maharashtra" formControlName="employeeState">
+                </div>
+                <div class="col col-sm-6 col-md-4">
+                    <label>Country*</label>
+                    <input class='form-control' placeholder="India" formControlName="employeeCountry">
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="d-flex justify-content-center">
+            <div class="btn btn-success" (click)="submitHandler()">Submit</div>
+        </div>
+    </form>
+</div>
