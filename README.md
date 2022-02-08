@@ -6,22 +6,28 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Angular SD Assignment
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## APIs Used
 
-## Build
+#### posts
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```http
+  get https://jsonplaceholder.typicode.com/posts
+```
 
-## Running unit tests
+#### random users
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```http
+  get https://random-data-api.com/api/name/random_name
+```
 
-## Running end-to-end tests
+#### random images
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```http
+  get https://picsum.photos/250/100?random=1
+```
 
-## Further help
+## Screenshots
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
